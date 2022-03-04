@@ -49,15 +49,15 @@ extension Font {
         switch self {
         case .largeTitle: return "largeTitle"
         case .title: return "title"
-        case .title2: return "title2"
-        case .title3: return "title3"
+        case .title2: return "title2 iOS14+"
+        case .title3: return "title3 iOS14+"
         case .headline: return "headline"
         case .body: return "body"
         case .callout: return "callout"
         case .subheadline: return "subheadline"
         case .footnote: return "footnote"
         case .caption: return "caption"
-        case .caption2: return "caption2"
+        case .caption2: return "caption2 iOS14+"
         default:
             return ""
         }
